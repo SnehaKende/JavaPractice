@@ -1,0 +1,6 @@
+2024-11-22 16:12:58 [main] [INFO] com.ui.listeners.TestListener Test Suite Started!! 
+2024-11-22 16:13:11 [main] [INFO] com.ui.listeners.TestListener LoginExcelTest 
+2024-11-22 16:13:11 [main] [INFO] com.ui.listeners.TestListener Verifies if the valid user loign happens 
+2024-11-22 16:13:11 [main] [INFO] com.ui.listeners.TestListener [Sanity, Regression] 
+2024-11-22 16:13:17 [main] [INFO] com.ui.listeners.TestListener LoginExcelTest PASSED 
+2024-11-22 16:13:17 [main] [INFO] com.ui.listeners.TestListener Test Suite Completed!! 

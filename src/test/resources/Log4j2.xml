@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Configuration>
+	<!-- Appenders describe where do we want to see our logs-->
+	<Appenders>
+		<Console name="Console" target="SYSTEM_OUT">
+			<PatternLayout
+				pattern="%d{YYYY-MM-dd HH:mm:ss} [%t] %level %logger %msg %n"></PatternLayout>
+		</Console>
+
+		<File name = "FileLogger" filename="Logs/automation.log" append="false">
+			<PatternLayout
+			pattern="%d{YYYY-MM-dd HH:mm:ss} [%t] [%level] %logger %msg %n"></PatternLayout>
+		</File>
+	</Appenders>
+	<!---->
+	<Loggers>
+	<Root level="info">
+	
+		<AppenderRef ref="Console"></AppenderRef>
+		<AppenderRef ref ="FileLogger"></AppenderRef>
+	</Root>
+
+	</Loggers>
+</Configuration>

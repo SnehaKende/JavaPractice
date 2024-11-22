@@ -13,7 +13,7 @@ public final class Homepage extends BrowserUtil{
 //*********PAGE OBJECT DESIGN PATTERN****************
 	public Homepage(Browser browser) {
 		super(browser);
-		launchURL(JSONUtility.readJSON(QA));
+		launchURL(JSONUtility.readJSON(QA).getUrl());
 		maximizeWindow();
 	}
 
